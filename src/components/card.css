@@ -1,0 +1,123 @@
+.main-container {
+    display: flex;
+    box-shadow: 0px 0px 3px black;
+    border-color: black;
+    background-color: aliceblue;
+    width: 100%;
+    justify-content: space-between;
+    margin: 5%;
+    padding: 10px;
+}
+
+.Card-container {
+    /* padding: 10px;
+    margin: 20px;
+    width: 90rem;  */
+    display: flex;
+
+    /* flex-direction: row;  */
+    /* line-height: 12px; */
+}
+
+.Card-container1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.09;
+    /* margin-left: 100px; */
+
+}
+
+.Card-container1 h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0.01%;
+
+}
+
+
+.Card-img {
+    margin: 5px;
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.inner-container {
+    flex-direction: column;
+    line-height: 50%;
+    border: 10px;
+    padding-left: 20px;
+}
+
+.inner-container h1 {
+    margin-bottom: 30px;
+}
+
+.card-name .inner-card-name {
+    font-size: 20px;
+    color: gray;
+    display: inline;
+}
+
+.btns button {
+    color: purple;
+    margin: 10px;
+    border-radius: 4px;
+    border-color: rgb(66, 66, 66);
+}
+
+.btn1 {
+    border: none;
+    color: purple;
+}
+
+.inner-container p {
+    color: grey;
+    line-height: 0.1;
+}
+
+.colors {
+    color: purple;
+}
+
+.profile-button button {
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+
+
+}
+
+.Awards {
+    display: flex;
+    font-size: 20px;
+}
+
+.Awards div{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+}
+
+.Awards .first{
+    background-color: rgba(250, 121, 242, 0.5);   
+}
+
+.Awards .second{
+    background-color: rgba(248, 255, 37, 0.5);    
+}
+
+.Awards .third{
+    background-color: rgba(107, 107, 228,0.5);  
+}
+.Awards .fourth{
+    background-color: rgba(58, 237, 100, 0.5);
+    
+}
+
+
